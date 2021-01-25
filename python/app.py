@@ -36,10 +36,8 @@ st.write ("""
 st.markdown( "  [Random forest] (https://ct-pedtbi-test-rf.herokuapp.com/) ")
 st.markdown( "  [Logistic Regression] (https://ct-pedtbi-test-ln.herokuapp.com/) ")
 st.markdown( "  [Neural Network] (https://ct-pedtbi-test-nn.herokuapp.com/) ")
-#st.markdown( "  [K-Nearest Neighbor (kNN)] (https://pedtbi-test-knn.herokuapp.com/) ")
 st.markdown( "  [naive Bayes] (https://ct-pedtbi-test-nb.herokuapp.com/) ")
 st.markdown( "  [Support Vector Machines] (https://ct-pedtbi-test-svm.herokuapp.com/) ")
-#st.markdown( "  [Gradient Boosting Classifier] (https://pedtbi-test-gbc.herokuapp.com/) ")
 st.markdown( "  [Nomogram] (https://psuneurosx.shinyapps.io/ct-pedtbi-nomogram/) ")
 
 st.write ("""
