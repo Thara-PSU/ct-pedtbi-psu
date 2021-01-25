@@ -144,6 +144,6 @@ output$data.pred <- renderPrint({
 })
 
 output$summary <- renderPrint({
-summary(model)
+summary(model),
 })
 }
