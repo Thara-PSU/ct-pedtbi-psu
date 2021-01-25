@@ -11,9 +11,8 @@ ui = bootstrapPage(fluidPage(
     ),
     mainPanel(tabsetPanel(id = 'tabs',
                           tabPanel('Graphical Summary', plotlyOutput('plot')),
-                          tabPanel('Numerical Summary', verbatimTextOutput('data.pred'))
-                          #tabPanel('Numerical Summary', verbatimTextOutput('data.pred')),
-                          #tabPanel('Model Summary', verbatimTextOutput('summary'))
+                          tabPanel('Numerical Summary', verbatimTextOutput('data.pred')),
+                         
     )
     )
     )))
